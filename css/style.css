@@ -21,6 +21,7 @@ body {
 .container {
 width: 1040px;
   margin: 0 auto;
+    padding-left: 80px;
 
 }
 .site-header .container {
