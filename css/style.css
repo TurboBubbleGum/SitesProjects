@@ -220,7 +220,7 @@ width: 1040px;
 .scale {
     transition: 1s;/* Время эффекта */
     text-align:center;
-font-size: 14px;
+font-size: calc(0em + 0.9vw);
    }
    .scale:hover {
     transform: scale(2); /* Увеличиваем масштаб */
