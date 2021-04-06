@@ -219,6 +219,7 @@ width: 1040px;
 }
 .scale {
     transition: 1s;/* Время эффекта */
+     font-size: calc(0em + 0.9vw);
     text-align:center;
    }
    .scale:hover {
