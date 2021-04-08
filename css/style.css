@@ -15,7 +15,6 @@ body {
     display: block;
   min-height: 100px;
   padding-top: 30px;
-  padding-bottom: 105px;
      
 }
 .container {
@@ -29,7 +28,6 @@ width: 1040px;
   background-image: url(../img/earth440x440.png);
   background-repeat: no-repeat;
   background-position: 520px 90px;
-/*background-color: #113132;*/
 }
 .main-nav {
     display: flex;
@@ -58,7 +56,7 @@ width: 1040px;
   margin-right: 40px;
     color: #ffffff;
     text-decoration: none;
-    font-family: "Courier New";
+    font-family: monospace "Courier New";
     font-weight: bold;
 }
 .contacts-menu {
@@ -147,7 +145,7 @@ width: 1040px;
   font-family: "monospace";
       font-weight: bold;
 
-
+    background: linear-gradient(to bottom, #feca30, #f1da36);
 }
 .btn-yellow:after {
   content: "";
@@ -162,18 +160,12 @@ width: 1040px;
   background-image: url(../img/rocketicon.png);
     
 }
-
-.btn-yellow {
-  background-color: #feca30;
-
-}
-
 .btn-yellow:hover {
-  background-color: white;
+  background: linear-gradient(to bottom, #ffffff, #f1da36);
 }
 
 .btn-yellow:active {
-  background-color: #c1a300;
+  background: linear-gradient(to bottom, #ffffff, #c1a325);
 }
 .about-us a{
     padding: 20px;
@@ -255,7 +247,7 @@ width: 1040px;
       font-weight: bold;
 }
 .agency li:hover {
-  background-color: white;
+  background-color: #e1a325;
 }
 
 .agency li:active {
@@ -263,7 +255,7 @@ width: 1040px;
 }
 .agency li {
      margin:20px 30px 20px 40px;
-    background-color: #e1a325
+    background-color: whitesmoke;
 }
 .agency a {
 display: block;
@@ -276,11 +268,12 @@ display: block;
 }
 .future-space {
       text-align:justify;
-    color: black;
+    color: white;
+    background-color: black;
 }
 .komers {
-      text-decoration: none;
     text-align:right;
+    color: whitesmoke;
 }
 .lead{
     margin-top: 0;
@@ -288,10 +281,11 @@ display: block;
         text-align:center;
     padding: 10px;
     margin: 10px;
-    color: black;
+    color: white;
+    background-color: black;
 }
 .future .left-column {
-  background-color: #e1a325;
+
 }
 .ytb-video {
   position: relative;
@@ -313,13 +307,13 @@ display: block;
   padding-bottom: 55px;
 }
 .recommendations .left-column, .right-column{
-   background-color: #e1a325;  
+   background-color: black; 
 }
 .recommendations h3 {
   margin-top: 0;
   margin-bottom: 20px;
     padding:0px 10px;
-    color: black;
+    color: whitesmoke;
 }
 .recommendations-list {
   margin: 0;
@@ -330,25 +324,15 @@ display: block;
   list-style: none;
     color: black;
 }
-
+.recommendations-list p{
+    margin-left: 4px;
+}
 .recommendations-list li {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
      margin-right: 30px;
-     background-color: #ffffff;
+     background-color: whitesmoke;
 }
-.site-footer {
-  padding-top: 50px;
-  padding-bottom: 80px;
-/*
-
-  color: #ffffff;
-
-  background-color: #131313;
-*/
-}
-
-
 .footer-columns-container {
   display: flex;
     /*padding-top: 40px;
@@ -391,7 +375,7 @@ display: block;
 .right-column-footer {
 }
 .right-column-footer a {
-    margin-top:18px;
+    margin-top:14px;
     
       display: block;
     width: 350px;
