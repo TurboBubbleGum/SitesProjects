@@ -145,7 +145,7 @@ width: 1040px;
   font-family: "monospace";
       font-weight: bold;
 
-    background: linear-gradient(to bottom, #feca30, #f1da36);
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
 }
 .btn-yellow:after {
   content: "";
@@ -161,11 +161,11 @@ width: 1040px;
     
 }
 .btn-yellow:hover {
-  background: linear-gradient(to bottom, #ffffff, #f1da36);
+  background: linear-gradient(to bottom, #ffffff, #FFCF40);
 }
 
 .btn-yellow:active {
-  background: linear-gradient(to bottom, #ffffff, #c1a325);
+  background: linear-gradient(to bottom, #FFCF40, #FFCF40);
 }
 .about-us a{
     padding: 20px;
@@ -307,7 +307,10 @@ display: block;
   padding-bottom: 55px;
 }
 .recommendations .left-column, .right-column{
-   background-color: black; 
+   background: linear-gradient( LightSteelBlue, transparent 1px ),
+ linear-gradient( 90deg, LightSteelBlue, transparent 1px );
+ background-size: 10px 10px; background-position: center center;
+ border: 2px solid LightSteelBlue; 
 }
 .recommendations h3 {
   margin-top: 0;
@@ -324,10 +327,10 @@ display: block;
   list-style: none;
     color: black;
 }
-.recommendations-list a {
+.recommendations-list a{
     color: darkslateblue;
 }
-.recommendations-list p {
+.recommendations-list p{
     margin-left: 4px;
 }
 .recommendations-list li {
