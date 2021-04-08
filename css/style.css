@@ -324,6 +324,9 @@ display: block;
   list-style: none;
     color: black;
 }
+.recommendations-list a{
+    color: darkslateblue;
+}
 .recommendations-list p{
     margin-left: 4px;
 }
