@@ -324,11 +324,11 @@ display: block;
   list-style: none;
     color: black;
 }
-.recommendations-list a{
+.recommendations-list a {
     color: darkslateblue;
 }
-.recommendations-list p{
-    margin-left: 5px;
+.recommendations-list p {
+    margin-left: 4px;
 }
 .recommendations-list li {
   position: relative;
