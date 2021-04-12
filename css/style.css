@@ -242,6 +242,7 @@ width: 1040px;
     text-align:center;
 }
 .agency-title, .lead{
+        background-color: black;
     text-align: center;
     font-family: "monospace";
       font-weight: bold;
@@ -278,14 +279,9 @@ display: block;
 .lead{
     margin-top: 0;
   margin-bottom: 20px;
-        text-align:center;
     padding: 10px;
     margin: 10px;
     color: white;
-    background-color: black;
-}
-.future .left-column {
-
 }
 .ytb-video {
   position: relative;
@@ -386,7 +382,6 @@ display: block;
       display: block;
     width: 350px;
     text-align: center;
-  text-decoration: none;
     background-color: #000000;
     color: white;
 }
