@@ -1,0 +1,32 @@
+body {
+    background-image: url(../img/3.jpg);
+}
+.entry-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    margin-bottom: 40px;
+    position: relative;
+}
+h1 {
+    text-align: center;
+    color: aquamarine;
+}
+.first {
+    color: darkblue;
+    font-weight: bold;
+    border-bottom: 3px solid darkblue;
+    text-align: end;
+}
+.entry {
+    width: 600px;
+}
+img {
+    width: 480px;
+}
+p {
+line-height: 1.25;
+margin-bottom: 1em;
+}
